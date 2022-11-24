@@ -1,6 +1,6 @@
 package io.sewah.spingbootmybatisdemo.dao;
 
-import io.sewah.spingbootmybatisdemo.models.Product;
+import io.sewah.spingbootmybatisdemo.mybatis.models.Product;
 import io.sewah.spingbootmybatisdemo.mybatis.mappers.ProductMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,6 @@
 package io.sewah.spingbootmybatisdemo.mybatis.mappers;
 
-import io.sewah.spingbootmybatisdemo.models.Product;
+import io.sewah.spingbootmybatisdemo.mybatis.models.Product;
 import org.apache.ibatis.annotations.Param;
 
 import java.util.List;

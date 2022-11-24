@@ -1,4 +1,4 @@
-package io.sewah.spingbootmybatisdemo.models;
+package io.sewah.spingbootmybatisdemo.mybatis.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
