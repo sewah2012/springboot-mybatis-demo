@@ -1,1 +1,26 @@
+logging:
+  # Set the log level of the package where the mapper interface is located to DEBUG, so that you can see more detailed SQL execution logs.
+  level:
+    "io.springcloud.mybatis.mapper": "DEBUG"
 
+spring:
+  data:
+    jpa:
+      repositories:
+        bootstrap-mode: default
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: root
+    password: root
+    driverClassName: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+
+mybatis:
+  # Set the xml configuration file address for mybatis.
+  # config-location: "classpath:mybatis/mybatis-config.xml"
+
+  # Loads all files in the 'mapper' directory (regardless of directory hierarchy) with names ending in '-mapper.xml'.
+  mapper-locations:
+    - "classpath:sqlmaps/ProductMapper.xml"
