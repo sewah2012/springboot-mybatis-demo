@@ -23,4 +23,4 @@ mybatis:
 
   # Loads all files in the 'mapper' directory (regardless of directory hierarchy) with names ending in '-mapper.xml'.
   mapper-locations:
-    - "classpath:sqlmaps/ProductMapper.xml"
+    - "classpath:sqlmaps/*Mapper.xml"
