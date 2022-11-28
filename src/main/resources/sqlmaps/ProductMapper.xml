@@ -5,6 +5,10 @@
 
 <mapper namespace="io.sewah.spingbootmybatisdemo.mybatis.mappers.ProductMapper">
     <select id="getAllProduct" resultType="io.sewah.spingbootmybatisdemo.mybatis.models.Product">
+        select * from Products
+    </select>
+
+    <select id="getProduct" resultType="io.sewah.spingbootmybatisdemo.mybatis.models.Product">
         select * from Products where productId = #{productId}
     </select>
 </mapper>
